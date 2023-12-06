@@ -1,8 +1,9 @@
-import App from "./Pages/App"
+import App from "./App"
 import Home from "./Pages/Home"
 import Products from "./Pages/Products"
 import Product from "./Pages/Product"
 import ProductForm from "./Pages/ProductForm"
+import Admin from "./Pages/Admin"
 
 
 const routes = [
@@ -15,18 +16,18 @@ const routes = [
             element: <Home />
         },
         {
-            path: "/products",
-            element: <Products />
+            path: "/store",
+            element: <Products />,
         },
         {
-          path: "/products/new",
-          element: <ProductForm />
+          path: "/product/:id",
+          element: <Product />
+        },
+        {
+          path: "/admin",
+          element: <Admin />
 
         },
-        {
-          path: "/products/:id",
-          element: <Product />
-        }
       ]
     }, 
 ]

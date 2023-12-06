@@ -12,17 +12,17 @@ function NavBar() {
                 Home
             </NavLink>
             <NavLink
-                to="./products"
+                to="./store"
                 end
                 className="nav-link"
             >
-                My products
+                My Store
             </NavLink>
             <NavLink
-                to="./products/new"
+                to="./admin"
                 className="nav-link"
             >
-                Add A Product
+                Manage My Store
             </NavLink>
         </nav>
     )
