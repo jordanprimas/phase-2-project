@@ -3,14 +3,11 @@ import { Outlet } from "react-router-dom"
 import NavBar from "./Components/NavBar"
 
 const App = () => {
-  const [products, setProducts] = useState([])
 
-  useEffect(() => {
-    fetch("http://localhost:3001/products")
-      .then((res) => res.json())
-      .then((data) => setProducts(data))
-  }, [])
+  
+  const handleCategoryChange = () => {
 
+  }
 
 
   return (
@@ -18,7 +15,7 @@ const App = () => {
       <header>
         <NavBar />
       </header>
-      <Outlet context={products} />
+      <Outlet />
    
     </>
   );

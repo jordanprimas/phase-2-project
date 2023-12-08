@@ -13,10 +13,12 @@ const Product = () => {
   }, [productId])
 
   return (
-    <div>
-      <h1>{product.name}</h1>
-      <img src={product.image}/>
-      <p>price: ${product.price}</p>
+    <div className='cards'>
+      <article className='card'>
+        <h1>{product.name}</h1>
+        <img src={product.image}/>
+        <p>price: ${product.price}</p>
+      </article>
 
     </div>
   )

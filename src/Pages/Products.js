@@ -1,25 +1,32 @@
 import React from 'react'
-import { useOutletContext, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Header from '../Components/Header'
+import '../index.css'
+import { ProductConsumer } from '../ProductContext'
 
 
 const Products = () => {
-  const products = useOutletContext()
-
-  const productsList = products.map(product => (
-  <div key={product.id}>
-    <h2>{product.name}</h2>
-    <img src={product.image}/>
-      <Link to={`/product/${product.id}`} >More Information</Link>
-    <p>{product.description}</p>
-  </div>
-  ))
  
   return (
-    <div>
-      {productsList}
-
-
-    </div>
+    <ProductConsumer>
+      {context => {
+        const productsList = context.products.map(product => (
+          <div className="card" key={product.id}>
+            <h3>{product.name}</h3>
+            <img className="card img" src={product.image}/>
+            <Link to={`/product/${product.id}`} >More Information</Link>
+            <p>{product.description}</p>
+          </div>
+        ))
+        return (
+          <div className='cards'>
+            <h1></h1>
+            <Header />
+            {productsList}
+          </div>
+        )
+      }}
+    </ProductConsumer>
   )
 }
 

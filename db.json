@@ -2,67 +2,67 @@
     "products": [
       {
         "id": 1,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
+        "name": "Sparkling Stones Drop Earrings",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw84fa3d0a/productimages/singlepackshot/263011C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "14k Gold-plated unique metal blend",
+        "category": "Earrings",
         "price": 180
       },
       {
         "id": 2,
-        "name": "Christian Louboutin",
-        "image": "https://media.glamour.com/photos/56958af85fff94d44eec8883/master/w_960,c_limit/fashion-blogs-slaves-to-fashion-2011-03-21-0321christian-louboutin-red-soles_fa.jpg",
-        "description": "So Kate 120 Patent Leather Pumps",
-        "category": "shoes",
-        "price": 795
+        "name": "Golden Tiara Ring Set",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwe272ed29/productimages/NAMPS0332.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "14k gold-plated",
+        "category": "Ring",
+        "price": 190
       },
       {
         "id": 3,
-        "name": "Hermes",
-        "image": "https://assets.hermes.com/is/image/hermesproduct/oran-sandal--021056Z%2003-worn-1-0-0-800-800_g.jpg",
-        "description": "Oran Sandal",
-        "category": "shoes",
-        "price": 700
+        "name": "Pear Halo Stud Earrings",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw31e7b4f9/productimages/singlepackshot/292834C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "Sterling silver",
+        "category": "Earrings",
+        "price": 80
       },
       {
         "id": 4,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
-        "price": 180
+        "name": "Classic Cable Chain Necklace",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw6924bbf9/productimages/singlepackshot/580413_V2_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "14k Rose gold-plated unique metal blend",
+        "category": "Necklace",
+        "price": 200
       },
       {
         "id": 5,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
+        "name": "Triple Stone Heart Collier Necklace",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3fe97ce0/productimages/singlepackshot/363014C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "Gold plated",
+        "category": "Necklace",
         "price": 180
       },
       {
         "id": 6,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
-        "price": 180
+        "name": "Square Sparkle Halo Ring",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwe0e5c747/productimages/main/198863C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "Sterling silver",
+        "category": "Ring",
+        "price": 150
       },
       {
         "id": 7,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
-        "price": 180
+        "name": "Sparkling Tennis Bracelet",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw88c6e0d2/productimages/singlepackshot/581469C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "14k Rose gold-plated unique metal blend",
+        "category": "Braclet",
+        "price": 185
       },
       {
         "id": 8,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
-        "price": 180
+        "name": "Elevated Heart Stud Earrings",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw132e491f/productimages/main/288427C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "Rose gold plated",
+        "category": "Earrings",
+        "price": 115
       },
       {
         "id": 9,
@@ -74,11 +74,11 @@
       },
       {
         "id": 10,
-        "name": "Nike Dunk Low Retro",
-        "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-        "description": "White Black Panda",
-        "category": "shoes",
-        "price": 180
+        "name": "Pandora Reflexions™ Mesh Bracelet",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwc86acf87/productimages/singlepackshot/568666C00_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "Gold plated",
+        "category": "Braclet",
+        "price": 155
       }
     ]
   }

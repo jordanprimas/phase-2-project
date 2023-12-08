@@ -4,12 +4,17 @@ import Products from "./Pages/Products"
 import Product from "./Pages/Product"
 import ProductForm from "./Pages/ProductForm"
 import Admin from "./Pages/Admin"
+import { ProductProvider } from './ProductContext'
 
 
 const routes = [
     {
       path: "/",
-      element: <App />,
+      element: (
+        <ProductProvider>
+           <App />
+        </ProductProvider>
+      ),
       children: [
         {
             path: "/",
