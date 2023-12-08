@@ -15,12 +15,6 @@ const Products = () => {
   return (
     <ProductConsumer>
       {context => {
-        
-
-
-
-
-
         const productsList = context.products.filter(product => {
           if (selectedCategory === "All") {
             return true
@@ -28,11 +22,10 @@ const Products = () => {
             return product.category === selectedCategory
           }
         })
-        console.log(productsList)
           
         return (
-          <div className='cards'>
-            <h1></h1>
+          <div>
+            <h1>Store Name</h1>
             <Header onCategoryChange={handleCategoryChange} />
             <ProductList product={productsList} />
           </div>

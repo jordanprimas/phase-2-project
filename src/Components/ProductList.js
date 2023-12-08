@@ -12,7 +12,7 @@ const ProductList = ({product}) => {
 ))
 
 return (
-  <div>
+  <div className='cards'>
     {productL}
   </div>
 )
