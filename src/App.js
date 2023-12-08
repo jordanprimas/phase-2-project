@@ -4,11 +4,6 @@ import NavBar from "./Components/NavBar"
 
 const App = () => {
 
-  
-  const handleCategoryChange = () => {
-
-  }
-
 
   return (
     <>

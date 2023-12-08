@@ -1,28 +1,40 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import ProductList from '../Components/ProductList'
 import Header from '../Components/Header'
 import '../index.css'
 import { ProductConsumer } from '../ProductContext'
 
 
 const Products = () => {
+  const [selectedCategory, setSelectedCategory] = useState('All')
+
+  const handleCategoryChange = (e) => {
+    setSelectedCategory(e.target.value)
+  }
  
   return (
     <ProductConsumer>
       {context => {
-        const productsList = context.products.map(product => (
-          <div className="card" key={product.id}>
-            <h3>{product.name}</h3>
-            <img className="card img" src={product.image}/>
-            <Link to={`/product/${product.id}`} >More Information</Link>
-            <p>{product.description}</p>
-          </div>
-        ))
+        
+
+
+
+
+
+        const productsList = context.products.filter(product => {
+          if (selectedCategory === "All") {
+            return true
+          } else {
+            return product.category === selectedCategory
+          }
+        })
+        console.log(productsList)
+          
         return (
           <div className='cards'>
             <h1></h1>
-            <Header />
-            {productsList}
+            <Header onCategoryChange={handleCategoryChange} />
+            <ProductList product={productsList} />
           </div>
         )
       }}
