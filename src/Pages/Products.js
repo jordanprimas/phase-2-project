@@ -7,9 +7,14 @@ import { ProductConsumer } from '../ProductContext'
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('All')
+  const [searchBar, setSearchBar] = useState("")
 
   const handleCategoryChange = (e) => {
     setSelectedCategory(e.target.value)
+  }
+
+  const handleSearch = (e) => {
+    setSearchBar(e.target.value)
   }
  
   return (
@@ -22,12 +27,14 @@ const Products = () => {
             return product.category === selectedCategory
           }
         })
-          
+        const sortedProductsList = productsList.filter(product => product.name.includes(searchBar))
+        console.log(sortedProductsList)  
+
         return (
           <div>
             <h1>Store Name</h1>
-            <Header onCategoryChange={handleCategoryChange} />
-            <ProductList product={productsList} />
+            <Header onCategoryChange={handleCategoryChange} searchBar={searchBar} handleSearch={handleSearch} />
+            <ProductList product={sortedProductsList} />
           </div>
         )
       }}
