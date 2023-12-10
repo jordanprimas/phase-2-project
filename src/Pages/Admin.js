@@ -39,12 +39,14 @@ const Admin = () => {
 
 
             return (
-                    <div>
-                        <form onSubmit={handleSubmit}>
+                    <div className='admin'>
+                        <h3>Add a new product</h3>
+                        <form className="add-product-form" onSubmit={handleSubmit}>
                             <label>
                                 Name:
                                 <input 
                                     type='text'
+                                    className='name-input'
                                     name='name'
                                     value={name} 
                                     onChange={(e) => setName(e.target.value)}               
@@ -55,6 +57,7 @@ const Admin = () => {
                                 Image:
                                 <input 
                                     type='text'
+                                    className='image-input'
                                     name='image'
                                     value={image}  
                                     onChange={(e) => setImage(e.target.value)}               
@@ -66,6 +69,7 @@ const Admin = () => {
                                 Description:
                                 <input 
                                     type='text'
+                                    className='description-input'
                                     name='description'
                                     value={description}
                                     onChange={(e) => setDescription(e.target.value)}               
@@ -77,6 +81,7 @@ const Admin = () => {
                                 Price:
                                 <input 
                                     type='text'
+                                    className='price-input'
                                     name='price'
                                     value={price}
                                     onChange={(e) => setPrice(e.target.value)}               
@@ -88,6 +93,7 @@ const Admin = () => {
                                 Category:
                                 <select 
                                     name='category'
+                                    className='category-select'
                                     value={category} 
                                     onChange={(e) => setCategory(e.target.value)}               
                                 >
@@ -98,13 +104,13 @@ const Admin = () => {
                                 </select>
                             </label>
 
-                            <button type="submit">Add a New Product!</button>
+                            <button type="submit" className='submit-new-button'>Add a New Product!</button>
                         </form>
 
-                        <div className="card">
-                            <h3>{newProductData.name}</h3>
-                            <img className="card img" src={newProductData.image} alt={"product photo"}/>
-                            <p>{newProductData.description}</p>
+                        <div className="new-product-card">
+                            <h3>Product name: {newProductData.name}</h3>
+                            <img className="new-product-image" src={newProductData.image} alt={"photo"}/>
+                            <p>Product Description: {newProductData.description}</p>
                         </div>
                     </div>
                     )

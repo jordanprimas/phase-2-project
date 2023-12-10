@@ -4,7 +4,7 @@
     width: 120px;
     padding: 5px;
     margin: 0 6px 6px;
-    background: powderblue;
+    background: #A0C3D2;
     text-decoration: none;
     text-align: center;
     font-size: min(10vw, 15px) ;
@@ -12,5 +12,5 @@
 }
 
 .active {
-    color: rgb(51, 0, 255);
+    color: rgb(86, 123, 141);
 }
