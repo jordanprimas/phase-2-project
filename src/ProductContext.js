@@ -11,10 +11,14 @@ const ProductProvider = (props) => {
       .then((data) => setProducts(data))
   }, [])
 
+  const addProduct = (product) => {
+    setProducts([...products, product])
+  }
 
   return(
     <ProductContext.Provider value={{
-        products: products
+        products: products,
+        addProduct: addProduct
     }}>
       {props.children}
     </ProductContext.Provider> 

@@ -16,91 +16,101 @@ const Admin = () => {
         price: price
     }
 
+    return (
+        <ProductConsumer>
+            {context => {
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        fetch("http://localhost:3001/products", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(newProductData),
-        })
-            .then((res) => res.json())
-            .then((newProduct) => console.log(newProduct))
-    }
+                const handleSubmit = (e) => {
+                    e.preventDefault()
+                    fetch("http://localhost:3001/products", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify(newProductData),
+                    })
+                        .then((res) => res.json())
+                        .then((newProduct) => context.addProduct(newProduct))
+                        setName("")
+                        setImage("")
+                        setDescription("")
+                        setPrice("")
+                }
 
-  return (
-    <div>
-        <form onSubmit={handleSubmit}>
-            <label>
-                Name:
-                <input 
-                    type='text'
-                    name='name'
-                    value={name} 
-                    onChange={(e) => setName(e.target.value)}               
-                />
-            </label>
 
-            <label>
-                Image:
-                <input 
-                    type='text'
-                    name='image'
-                    value={image}  
-                    onChange={(e) => setImage(e.target.value)}               
-            
-                />
-            </label>
+            return (
+                    <div>
+                        <form onSubmit={handleSubmit}>
+                            <label>
+                                Name:
+                                <input 
+                                    type='text'
+                                    name='name'
+                                    value={name} 
+                                    onChange={(e) => setName(e.target.value)}               
+                                />
+                            </label>
 
-            <label>
-                Description:
-                <input 
-                    type='text'
-                    name='description'
-                    value={description}
-                    onChange={(e) => setDescription(e.target.value)}               
-                
-                />
-            </label>
+                            <label>
+                                Image:
+                                <input 
+                                    type='text'
+                                    name='image'
+                                    value={image}  
+                                    onChange={(e) => setImage(e.target.value)}               
+                            
+                                />
+                            </label>
 
-            <label>
-                Price:
-                <input 
-                    type='text'
-                    name='price'
-                    value={price}
-                    onChange={(e) => setPrice(e.target.value)}               
-                
-                />
-            </label>
+                            <label>
+                                Description:
+                                <input 
+                                    type='text'
+                                    name='description'
+                                    value={description}
+                                    onChange={(e) => setDescription(e.target.value)}               
+                                
+                                />
+                            </label>
 
-            <label>
-                Category:
-                <select 
-                    name='category'
-                    value={category} 
-                    onChange={(e) => setCategory(e.target.value)}               
-                >
-                    <option value="necklace">Necklace</option>
-                    <option value="ring">Ring</option>
-                    <option value="braclet">Braclet</option>
-                    <option value="earrings">Earrings</option>
-                </select>
-            </label>
+                            <label>
+                                Price:
+                                <input 
+                                    type='text'
+                                    name='price'
+                                    value={price}
+                                    onChange={(e) => setPrice(e.target.value)}               
+                                
+                                />
+                            </label>
 
-            <button type="submit">Add a New Product!</button>
-        </form>
-        
-        <div className="card">
-            <h3>{newProductData.name}</h3>
-            <img className="card img" src={newProductData.image}/>
-            <p>{newProductData.description}</p>
-        </div>
+                            <label>
+                                Category:
+                                <select 
+                                    name='category'
+                                    value={category} 
+                                    onChange={(e) => setCategory(e.target.value)}               
+                                >
+                                    <option value="necklace">Necklace</option>
+                                    <option value="ring">Ring</option>
+                                    <option value="braclet">Braclet</option>
+                                    <option value="earrings">Earrings</option>
+                                </select>
+                            </label>
 
-    </div>
-    )
+                            <button type="submit">Add a New Product!</button>
+                        </form>
+
+                        <div className="card">
+                            <h3>{newProductData.name}</h3>
+                            <img className="card img" src={newProductData.image} alt={"product photo"}/>
+                            <p>{newProductData.description}</p>
+                        </div>
+                    </div>
+                    )
+                }
+            }
+        </ProductConsumer>)
 }
 
 export default Admin
