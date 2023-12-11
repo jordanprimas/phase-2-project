@@ -32,7 +32,7 @@ const Products = () => {
 
         return (
           <div>
-            <h1 className='store-name'>My Jewelry Store</h1>
+            <h1 className='store-name'>{context.storeName}</h1>
             <Header onCategoryChange={handleCategoryChange} searchBar={searchBar} handleSearch={handleSearch} />
             <br/>
             <ProductList product={sortedProductsList} />

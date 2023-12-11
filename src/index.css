@@ -163,3 +163,15 @@ body {
   border-color: #728f9c;
   background-color: #F7F5EB;
 }
+
+.store-name-input{
+  margin:15px;
+  padding:5px;
+  border-radius:10px;
+  border-color: #728f9c;
+  background-color: #F7F5EB;
+}
+
+.build-store{
+  color: #3d7e9f;
+}

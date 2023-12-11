@@ -18,15 +18,15 @@ const ProductProvider = (props) => {
   }
 
   const addStoreName = (name) => {
-
+    setStoreName(name)
   }
 
   return(
     <ProductContext.Provider value={{
         products: products,
         addProduct: addProduct,
+        addStoreName: addStoreName,
         storeName: storeName,
-        setStoreName, setStoreName
     }}>
       {props.children}
     </ProductContext.Provider> 

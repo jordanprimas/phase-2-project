@@ -10,28 +10,23 @@ const Home = () => {
   return (
     <ProductConsumer>
       {context => {
-
-        const handleSubmit = (e) => {
-          e.preventDefault()
-          console.log(e.taregt.value)
-        }
-
-          return (
-            <div>
-              <h1 className='home-name'>Build Your Store!</h1>
-              <img src='https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Jewelry-and-Diamonds-PNG/Diamond_PNG_Clip_Art_Image.png?m=1507172105'/>
+        return (
+          <div>
+            <h1 className='build-store'>Build Your Store!</h1>
+            <form>
+              <label>
+                Name Your Store
+              <input
+                type='text'
+                className='store-name-input'
+                value={context.storeName}
+                placeholder='Enter Store Name'
+                onChange={(e) => context.addStoreName(e.target.value)}
+              />
+              </label>
+            </form>
             
-              <form onSubmit={handleSubmit}>
-                <input
-                  type='text'
-                  className='store-name-input'
-                  name='description'
-                  placeholder='Enter Store Name'
-                />
-                <button>Submit</button>
-              </form>
-            
-            </div>
+          </div>
           )
         }
       }

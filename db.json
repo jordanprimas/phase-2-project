@@ -65,13 +65,13 @@
       "price": 115
     },
     {
-        "id": 9,
-        "name": "Triple Stone Heart Collier Necklace",
-        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3fe97ce0/productimages/singlepackshot/363014C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
-        "description": "Gold plated",
-        "category": "Necklace",
-        "price": 180
-      },
+      "id": 9,
+      "name": "Triple Stone Heart Collier Necklace",
+      "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3fe97ce0/productimages/singlepackshot/363014C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+      "description": "Gold plated",
+      "category": "Necklace",
+      "price": 180
+    },
     {
       "id": 10,
       "name": "Gold Mesh Bracelet",
@@ -79,6 +79,14 @@
       "description": "Gold plated",
       "category": "Bracelet",
       "price": 155
+    },
+    {
+      "name": "test",
+      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
+      "description": "",
+      "category": "Necklace",
+      "price": "123",
+      "id": 11
     }
   ]
 }
