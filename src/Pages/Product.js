@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 
 const Product = () => {
   const [product, setProduct] = useState([])
+  const [isInCart, setIsInCart] = useState(false)
   const params = useParams()
   const productId = params.id
 
@@ -12,14 +13,21 @@ const Product = () => {
     .then((data) => setProduct(data))
   }, [productId])
 
-  return (
-    <div className='cards'>
-      <article className='card'>
-        <h1>{product.name}</h1>
-        <img src={product.image}/>
-        <p>price: ${product.price}</p>
-      </article>
+  const handleAddToCart = () => {
+    setIsInCart(!isInCart)
+  }
 
+  return (
+    <div className='product-card'>
+        <h1>{product.name}</h1>
+        <p>{product.description}</p>
+        <h4>${product.price}</h4>
+        <button className={isInCart ? 'add-to-cart-btn' : 'in-cart-btn'} 
+        onClick={handleAddToCart}
+        >
+          {isInCart ? "In Your Cart" : "Add To Cart"}
+        </button>
+        <img className='product-img' src={product.image}/>
     </div>
   )
 }

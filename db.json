@@ -5,7 +5,7 @@
       "name": "Sparkling Stones Drop Earrings",
       "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw84fa3d0a/productimages/singlepackshot/263011C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
       "description": "14k Gold-plated unique metal blend",
-      "category": "Earring",
+      "category": "Earrings",
       "price": 180
     },
     {
@@ -21,7 +21,7 @@
       "name": "Pear Halo Stud Earrings",
       "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw31e7b4f9/productimages/singlepackshot/292834C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
       "description": "Sterling silver",
-      "category": "Earring",
+      "category": "Earrings",
       "price": 80
     },
     {
@@ -34,11 +34,11 @@
     },
     {
       "id": 5,
-      "name": "Triple Stone Heart Collier Necklace",
-      "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3fe97ce0/productimages/singlepackshot/363014C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
-      "description": "Gold plated",
-      "category": "Necklace",
-      "price": 180
+      "name": "Studded Chain Bracelet",
+      "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwbf9c3c2f/productimages/singlepackshot/582731C00_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+      "description": "Rose Gold plated",
+      "category": "Bracelet",
+      "price": 200
     },
     {
       "id": 6,
@@ -53,7 +53,7 @@
       "name": "Sparkling Tennis Bracelet",
       "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw88c6e0d2/productimages/singlepackshot/581469C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
       "description": "14k Rose gold-plated unique metal blend",
-      "category": "Braclet",
+      "category": "Bracelet",
       "price": 185
     },
     {
@@ -61,136 +61,24 @@
       "name": "Elevated Heart Stud Earrings",
       "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw132e491f/productimages/main/288427C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
       "description": "Rose gold plated",
-      "category": "Earring",
+      "category": "Earrings",
       "price": 115
     },
     {
-      "id": 9,
-      "name": "Nike Dunk Low Retro",
-      "image": "https://image.goat.com/750/attachments/product_template_pictures/images/071/445/308/original/719082_00.png.png",
-      "description": "White Black Panda",
-      "category": "shoes",
-      "price": 180
-    },
+        "id": 9,
+        "name": "Triple Stone Heart Collier Necklace",
+        "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw3fe97ce0/productimages/singlepackshot/363014C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
+        "description": "Gold plated",
+        "category": "Necklace",
+        "price": 180
+      },
     {
       "id": 10,
-      "name": "Pandora Reflexions™ Mesh Bracelet",
+      "name": "Gold Mesh Bracelet",
       "image": "https://us.pandora.net/dw/image/v2/AAVX_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dwc86acf87/productimages/singlepackshot/568666C00_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5",
       "description": "Gold plated",
-      "category": "Braclet",
+      "category": "Bracelet",
       "price": 155
-    },
-    {
-      "name": "Gold Ring",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "14k gold ",
-      "category": "ring",
-      "price": "145",
-      "id": 11
-    },
-    {
-      "name": "test",
-      "image": "const newProductData = {             name: name,             image: image,              description: description,             category: category,             price: price         }",
-      "description": "14k",
-      "category": "ring",
-      "price": "123",
-      "id": 12
-    },
-    {
-      "name": "",
-      "image": "",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 13
-    },
-    {
-      "name": "ejejeje",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "14k",
-      "category": "necklace",
-      "price": "123",
-      "id": 14
-    },
-    {
-      "name": "ejejeje",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "14k",
-      "category": "necklace",
-      "price": "123",
-      "id": 15
-    },
-    {
-      "name": "",
-      "image": "",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 16
-    },
-    {
-      "name": "",
-      "image": "",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 17
-    },
-    {
-      "name": "test",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "14k",
-      "category": "ring",
-      "price": "123",
-      "id": 18
-    },
-    {
-      "name": "test",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 19
-    },
-    {
-      "name": "",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 20
-    },
-    {
-      "name": "test",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "14k",
-      "category": "necklace",
-      "price": "123",
-      "id": 21
-    },
-    {
-      "name": "test4",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "14k",
-      "category": "ring",
-      "price": "123",
-      "id": 22
-    },
-    {
-      "name": "test",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 23
-    },
-    {
-      "name": "",
-      "image": "",
-      "description": "",
-      "category": "necklace",
-      "price": "",
-      "id": 24
     }
   ]
 }

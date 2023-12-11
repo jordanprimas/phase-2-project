@@ -2,7 +2,7 @@ import App from "./App"
 import Home from "./Pages/Home"
 import Products from "./Pages/Products"
 import Product from "./Pages/Product"
-import Admin from "./Pages/Admin"
+import ProductForm from "./Pages/ProductForm"
 import { ProductProvider } from './ProductContext'
 
 
@@ -28,8 +28,8 @@ const routes = [
           element: <Product />
         },
         {
-          path: "/admin",
-          element: <Admin />
+          path: "/product/form",
+          element: <ProductForm />
 
         },
       ]

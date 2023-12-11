@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { ProductConsumer } from '../ProductContext'
 
-const Admin = () => {
+const ProductForm = () => {
     const [name, setName] = useState("")
     const [image, setImage] = useState("")
     const [description, setDescription] = useState("")
     const [price, setPrice] = useState("")
-    const [category, setCategory] = useState("necklace")
+    const [category, setCategory] = useState("Necklace")
 
     const newProductData = {
         name: name,
@@ -39,8 +39,8 @@ const Admin = () => {
 
 
             return (
-                    <div className='admin'>
-                        <h3>Add a new product</h3>
+                    <div>
+                        <h3 className='add-product-title'>Add a new product</h3>
                         <form className="add-product-form" onSubmit={handleSubmit}>
                             <label>
                                 Name:
@@ -49,6 +49,7 @@ const Admin = () => {
                                     className='name-input'
                                     name='name'
                                     value={name} 
+                                    placeholder='Enter Name'
                                     onChange={(e) => setName(e.target.value)}               
                                 />
                             </label>
@@ -59,7 +60,8 @@ const Admin = () => {
                                     type='text'
                                     className='image-input'
                                     name='image'
-                                    value={image}  
+                                    value={image} 
+                                    placeholder='Enter Image URL' 
                                     onChange={(e) => setImage(e.target.value)}               
                             
                                 />
@@ -72,6 +74,7 @@ const Admin = () => {
                                     className='description-input'
                                     name='description'
                                     value={description}
+                                    placeholder='Enter Description'
                                     onChange={(e) => setDescription(e.target.value)}               
                                 
                                 />
@@ -84,6 +87,7 @@ const Admin = () => {
                                     className='price-input'
                                     name='price'
                                     value={price}
+                                    placeholder='Enter Price'
                                     onChange={(e) => setPrice(e.target.value)}               
                                 
                                 />
@@ -97,20 +101,21 @@ const Admin = () => {
                                     value={category} 
                                     onChange={(e) => setCategory(e.target.value)}               
                                 >
-                                    <option value="necklace">Necklace</option>
-                                    <option value="ring">Ring</option>
-                                    <option value="braclet">Braclet</option>
-                                    <option value="earrings">Earrings</option>
+                                    <option value="Necklace">Necklace</option>
+                                    <option value="Ring">Ring</option>
+                                    <option value="Bracelet">Bracelet</option>
+                                    <option value="Earrings">Earrings</option>
                                 </select>
                             </label>
 
-                            <button type="submit" className='submit-new-button'>Add a New Product!</button>
+                            <button type="submit" className='submit-new-button'>Add Product</button>
                         </form>
 
                         <div className="new-product-card">
                             <h3>Product name: {newProductData.name}</h3>
-                            <img className="new-product-image" src={newProductData.image} alt={"photo"}/>
+                            <img className="new-product-image" src={newProductData.image} alt={"Product Photo"}/>
                             <p>Product Description: {newProductData.description}</p>
+                            <p>Price: ${newProductData.price}</p>
                         </div>
                     </div>
                     )
@@ -119,4 +124,4 @@ const Admin = () => {
         </ProductConsumer>)
 }
 
-export default Admin
+export default ProductForm

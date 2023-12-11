@@ -19,7 +19,7 @@ function NavBar() {
                 My Store
             </NavLink>
             <NavLink
-                to="./admin"
+                to="./product/form"
                 className="nav-link"
             >
                 Manage My Store
