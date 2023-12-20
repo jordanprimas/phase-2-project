@@ -7,7 +7,7 @@ const Header = ({ onCategoryChange, searchBar, handleSearch }) => {
                 <option value="All">All</option>
                 <option value="Necklace">Necklaces</option>
                 <option value="Ring">Rings</option>
-                <option value="Bracelet">Bracelet</option>
+                <option value="Bracelets">Bracelets</option>
                 <option value="Earrings">Earrings</option>
             </select>
         </div>

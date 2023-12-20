@@ -12,13 +12,6 @@ function NavBar() {
                 Home
             </NavLink>
             <NavLink
-                to="./store"
-                end
-                className="nav-link"
-            >
-                My Store
-            </NavLink>
-            <NavLink
                 to="./product/form"
                 className="nav-link"
             >

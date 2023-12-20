@@ -27,12 +27,10 @@ const Products = () => {
             return product.category === selectedCategory
           }
         })
-        const sortedProductsList = productsList.filter(product => product.name.includes(searchBar))
-        console.log(sortedProductsList)  
+        const sortedProductsList = productsList.filter(product => product.name.toLowerCase().includes(searchBar.toLowerCase()))
 
         return (
           <div>
-            <h1 className='store-name'>{context.storeName}</h1>
             <Header onCategoryChange={handleCategoryChange} searchBar={searchBar} handleSearch={handleSearch} />
             <br/>
             <ProductList product={sortedProductsList} />

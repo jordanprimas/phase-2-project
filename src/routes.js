@@ -1,5 +1,4 @@
 import App from "./App"
-import Home from "./Pages/Home"
 import Products from "./Pages/Products"
 import Product from "./Pages/Product"
 import ProductForm from "./Pages/ProductForm"
@@ -17,11 +16,7 @@ const routes = [
       children: [
         {
             path: "/",
-            element: <Home />
-        },
-        {
-            path: "/store",
-            element: <Products />,
+            element: <Products />
         },
         {
           path: "/product/:id",
