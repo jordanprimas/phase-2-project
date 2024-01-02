@@ -79,14 +79,6 @@
       "description": "Gold plated",
       "category": "Bracelet",
       "price": 155
-    },
-    {
-      "name": "test",
-      "image": "https://www.zalesoutlet.com/productimages/processed/V-20575991_0_800.jpg?pristine=true",
-      "description": "",
-      "category": "Necklace",
-      "price": "123",
-      "id": 11
     }
   ]
 }

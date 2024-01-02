@@ -27,7 +27,7 @@ body {
   margin:15px;
   padding:10px;
   border-radius:10px;
-  border-color: #eac7c7;
+  border-color: #3d7e9f;
   background-color: #F7F5EB;
 }
 
@@ -35,7 +35,7 @@ body {
   margin:15px;
   padding:10px;
   border-radius:10px;
-  border-color: #eac7c7;
+  border-color: #3d7e9f;
   background-color: #F7F5EB;
 }
 
@@ -43,7 +43,7 @@ body {
   margin:15px;
   padding:10px;
   border-radius:10px;
-  border-color: #eac7c7;
+  border-color: #3d7e9f;
   background-color: #F7F5EB;
 }
 
@@ -51,7 +51,7 @@ body {
   margin:15px;
   padding:10px;
   border-radius:10px;
-  border-color: #eac7c7;
+  border-color: #3d7e9f;
   background-color: #F7F5EB;
 }
 
@@ -65,7 +65,7 @@ body {
 .submit-new-button{
   padding:10px;
   border:none;
-  background-color: #eac7c7;
+  background-color: #3d7e9f;
   color: white;
   font-weight:600;
   border-radius:5px;
@@ -74,7 +74,7 @@ body {
 }
 
 .category-select{
-  background-color: #eac7c7;
+  background-color: #3d7e9f;
   text-align: center;
   width: 50%;
   padding:10px;
@@ -83,7 +83,7 @@ body {
 }
 
 .new-product-card{
-  border: 4px solid rgb(234, 224, 218);
+  border: 4px solid rgb(186, 175, 168);
   position: relative;
   top: 100px;
   left: 500px;
@@ -98,7 +98,7 @@ body {
 }
 
 .add-product-title{
-  color: #e58080;
+  color: #3d7e9f;
 }
 
 .product-card{
@@ -116,13 +116,6 @@ body {
   object-fit: cover;
   width: 300px;
   height: 300px;
-}
-
-.store-name{
-  color: #3d7e9f;
-  object-position: absolute;
-  left: 100px;
-
 }
 
 .add-to-cart-btn{

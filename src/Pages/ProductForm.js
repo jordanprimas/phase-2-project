@@ -110,13 +110,6 @@ const ProductForm = () => {
 
                             <button type="submit" className='submit-new-button'>Add Product</button>
                         </form>
-
-                        <div className="new-product-card">
-                            <h3>Product name: {newProductData.name}</h3>
-                            <img className="new-product-image" src={newProductData.image} alt={"Product Photo"}/>
-                            <p>Product Description: {newProductData.description}</p>
-                            <p>Price: ${newProductData.price}</p>
-                        </div>
                     </div>
                     )
                 }

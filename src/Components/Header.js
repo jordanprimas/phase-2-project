@@ -1,5 +1,6 @@
 
 const Header = ({ onCategoryChange, searchBar, handleSearch }) => {
+    
     return (
         <div>
             <input type="text" className='searchbar-input' value={searchBar} placeholder="Search..." onChange={handleSearch}/> 
@@ -7,7 +8,7 @@ const Header = ({ onCategoryChange, searchBar, handleSearch }) => {
                 <option value="All">All</option>
                 <option value="Necklace">Necklaces</option>
                 <option value="Ring">Rings</option>
-                <option value="Bracelets">Bracelets</option>
+                <option value="Bracelet">Bracelets</option>
                 <option value="Earrings">Earrings</option>
             </select>
         </div>
